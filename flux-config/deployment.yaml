@@ -23,7 +23,7 @@ spec:
         resources: {}
         envFrom:
           - secretRef:
-            name: mysqlcreds
+              name: mysqlcreds
 ---
 
 apiVersion: v1
